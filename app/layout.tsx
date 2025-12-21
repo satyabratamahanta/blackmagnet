@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "BlackMagnet — AI-Assisted Mobile App Development",
   description:
     "BlackMagnet is a mobile app development company building scalable, production-ready applications using AI-assisted workflows and strong engineering practices.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
