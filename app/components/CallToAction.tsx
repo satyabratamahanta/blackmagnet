@@ -7,13 +7,13 @@ export default function CallToAction() {
         <div className="max-w-4xl mx-auto text-center border border-gray-800 rounded-2xl p-10 sm:p-14">
           
           <h3 className="text-3xl sm:text-4xl font-bold mb-6">
-            Ready to Build Your Mobile App?
+            Let’s Build Your Mobile App — The Right Way
           </h3>
 
           <p className="text-gray-400 text-lg mb-10">
-            Whether you’re starting with an idea or improving an existing product,
-            BlackMagnet can help you build a reliable, scalable mobile application
-            using AI-assisted development.
+            From idea to production, we help you design, build, and scale mobile
+            applications using AI-assisted development and solid engineering
+            practices.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -21,14 +21,14 @@ export default function CallToAction() {
               href="mailto:hello@blackmagnet.tech"
               className="px-10 py-3 rounded-md bg-white text-black font-medium hover:bg-gray-200 hover:scale-[1.02] transition-transform"
             >
-              Start a Conversation
+              Discuss Your Project
             </a>
 
             <a
-              href="#"
+              href="/services"
               className="px-10 py-3 rounded-md border border-gray-700 text-white hover:border-gray-500 transition"
             >
-              View Services
+              View Our Services
             </a>
           </div>
 
