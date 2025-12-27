@@ -1,22 +1,62 @@
-import type { MetadataRoute } from "next";
+import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = 'https://blackmagnet.tech'; // Replace with actual domain if different
+
   return [
     {
-      url: "https://blackmagnet.vercel.app",
+      url: baseUrl,
       lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 1,
     },
     {
-      url: "https://blackmagnet.vercel.app/services",
+      url: `${baseUrl}/services`,
       lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
-      url: "https://blackmagnet.vercel.app/about",
+      url: `${baseUrl}/portfolio`,
       lastModified: new Date(),
+      changeFrequency: 'weekly',
+      priority: 0.8,
     },
     {
-      url: "https://blackmagnet.vercel.app/contact",
+      url: `${baseUrl}/careers`,
       lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/about`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.7,
+    },
+    {
+      url: `${baseUrl}/contact`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.5,
+    },
+    {
+      url: `${baseUrl}/privacy-policy`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/terms`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
+    },
+    {
+      url: `${baseUrl}/disclaimer`,
+      lastModified: new Date(),
+      changeFrequency: 'yearly',
+      priority: 0.3,
     },
   ];
 }

@@ -1,0 +1,19 @@
+<svg width="240" height="36" viewBox="0 0 240 36" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bm-text {
+      font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-weight: 600;
+      letter-spacing: -0.5px;
+    }
+    .bm-black {
+      fill: #ffffff;
+    }
+    .bm-accent {
+      fill: #8b5cf6;
+    }
+  </style>
+
+  <text x="0" y="26" class="bm-text bm-black" font-size="26">
+    Black<tspan class="bm-accent">Magnet</tspan>
+  </text>
+</svg>
